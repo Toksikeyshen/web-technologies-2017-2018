@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1545057455080" clover="3.2.0">
+  <project timestamp="1545057455080" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8" elements="27" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="1" files="2" classes="2">
+      <file name="constants.js" path="D:\lab2\services\constants.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="services.js" path="D:\lab2\services\services.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="517859" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="220496" type="stmt"/>
+        <line num="15" count="297363" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="297363" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="15600" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
