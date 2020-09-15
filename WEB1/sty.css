@@ -1,0 +1,53 @@
+.header{
+    background-color: rgb(99, 7, 192);
+    height: 300px
+}
+body{
+    background-color: #ede7f6;
+    margin: 0;
+}
+.palka{
+    background-color: #7fff00;
+    height: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    /*margin-top: -100px;*/
+}
+.okno{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.37);
+    margin-top: -100px;
+    margin-left:auto;
+    margin-right: auto;
+    width:40%;
+}
+
+.toch{
+    color: #ff2212;
+}
+
+.formdiv{
+    margin-bottom: 50px;
+    padding: 8px;
+}
+
+.borderinputs{
+    border-bottom: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 80%;
+}
+.selected{
+    border:0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.file{
+    color: #ff2212;
+}
+h2{
+    margin-top:30px;
+}

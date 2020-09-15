@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+<div class="header"></div>
+<main class="okno">
+    <div class="palka"></div>
+    <form class="formdiv" method="post">
+        <section>
+        <h1>Password request form</h1>
+        <P>После загрузки файлов и отправки формы данные, связанные с Вашим аккаунтом Google (имя и фотография),
+            будут записаны. Вы не человек? Сменить аккаунт</P>
+        <P><span class="toch">*Обязательно</span></P>
+        </section>
+        <section>
+        <h2>Please fill your name <span class="toch">*</span></h2>
+        <input type="text" class="borderinputs" placeholder="Введите текст">
+        </section>
+        <section>
+        <h2>What color you like<span class="toch">*</span></h2>
+        <p><input type="radio" name="radio" value="red">Red</p>
+        <p><input type="radio" name="radio" value="green">Green</p>
+        <p><input type="radio" name="radio" value="blue">Blue</p>
+        <p><input type="radio" name="radio" value="black">Black</p>
+        <p><input type="radio" name="radio" value="white">White</p>
+        <p><input type="radio" name="radio" value="other">Другое<input type="text" class="borderinputs" placeholder="Введите текст"></p>
+        </section>
+        <section>
+        <h2>What town you like more?<span class="toch">*</span></h2>
+        <select class="selected">
+            <option name="select" value="brest">Brest</option>
+            <option name="select" value="minsk">Minsk</option>
+            <option name="select" value="grodno">Grodno</option>
+            <option name="select" value="djaba">Djabinka</option>
+            <option name="select" value="bereza">Bereza</option>
+        </select>
+        </section>
+        <section>
+        <h2>Please describe (at least 50 symbols on symbols) your favorite programming language <span
+                class="toch">*</span>
+        </h2>
+        <input type="text" class="borderinputs" placeholder="Введите текст" name="vvod">
+        </section>
+        <section>
+        <h2>What years of education did you really like?<span class="toch">*</span></h2>
+        <p><input type="checkbox" name="check" value="first">First</p>
+        <p><input type="checkbox" name="check" value="second">Second</p>
+        <p><input type="checkbox" name="check" value="third">Third</p>
+        <p><input type="checkbox" name="check" value="fouth">Fouth</p>
+        <h2>Please send any image<span class="toch">*</span></h2>
+        <input type="file" class="file" name="file">
+        </section>
+        <section>
+        <h2>Set last Monday Monday<span class="toch">*</span></h2>
+        <input type="date" name="date">
+        </section>
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" name="sub">
+    </form>
+</main>
+<footer>Компания Google не имеет никакого отношения к этому контенту. Сообщение о нарушении - Условия использования -
+    Дополнительные условия
+</footer>
+</body>
+</html>
